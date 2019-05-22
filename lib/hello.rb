@@ -22,4 +22,3 @@ hello_t(["fuck","fucky"]) do |name|
 end
 
 
-hello_t(["layla","lilly"]) 
