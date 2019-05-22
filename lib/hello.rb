@@ -1,4 +1,5 @@
 def hello_t(array)
+  puts array
   if block_given?
     i = 0
  
