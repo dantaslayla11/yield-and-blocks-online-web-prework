@@ -4,7 +4,7 @@ def hello_t(array)
  
   while i < array.length
     puts array[i]
-    yield array[i]
+    #yield array[i]
     i = i + 1
   end
   puts i
