@@ -10,5 +10,5 @@ def hello_t(array)
 end
 
 
-hello_t(["fuck","bitch"]) do |name|
+hello_t(["fuck","fucky"]) do |name|
   
