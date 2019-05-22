@@ -2,7 +2,7 @@ def hello_t(array)
   i = 0
  puts array
   while i < array.length
-    #yield(array[i])
+    yield(array[i])
     i = i + 1
   end
  
@@ -17,4 +17,8 @@ hello_t(["fuck","fucky"]) do |name|
 end
 
 
-hello_t(["layla","lilly"])
+hello_t(["layla","lilly"]) do |name|
+  if name.start_with?("l")
+    puts "Hi, #{name}"
+  end
+end
