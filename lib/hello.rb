@@ -1,4 +1,5 @@
 def hello_t(array)
+  puts array
   i = 0
  
   while i < array.length
