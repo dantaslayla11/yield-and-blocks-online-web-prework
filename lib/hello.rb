@@ -1,6 +1,6 @@
 def hello_t(array)
   puts array
-  #if block_given?
+  if block_given?
     i = 0
  
     while i < array.length
@@ -9,9 +9,9 @@ def hello_t(array)
     end
  
     array
-  #else
-   # puts "Hey! No block was given!"
-  #end
+  else
+    puts "Hey! No block was given!"
+  end
 end
 
 
